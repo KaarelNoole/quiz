@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title">Android QUIZ</string>
+    <string name="info">This quiz contains questons about Android Studio.Test your knowledge about your work environment and the english language!</string>
+    <string name="start">start the quiz</string>
+    <string name="highscore">Highscore: %.1f%%</string>
+    <string name="resetScore">Reset Score</string>
+    <string name="resetAnswers">Reset Answers</string>
+    <string name="resetHighMessage">Do you really want to reset the highscore?</string>
+    <string name="questionNumber">Question: %d</string>
+    <string name="questionNumberDouble">Question: %d/%d</string>
+    <string name="dontknow">I dont know</string>
+    <string name="previousquestion">Previous question</string>
+    <string name="nextquestion">Next question</string>
+    <string name="submit">Submit answers</string>
+    <string name="submitTitle">Confirm Submission</string>
+    <string name="submitMessage">Are you sure?</string>
+    <string name="resultsTitle">Score:%1f%%</string>
+    <string name="resultsDe">Question results:</string>
+    <string name="home">Back to main</string>
+    <string name="userAnswer">Your answer: %s</string>
+    <string name="incorrect">Correct answer is: %s</string>
+    <string name="correct">Correct answer!</string>
+    <string name="newHighScore">New highscore!</string>
+    <string name="shareanswers">Share answers</string>
+    <string name="saveError">File does not exist.</string>
+
+    <!-- Q&A string array -->
+    <!-- 0 - question, 1-4 answers, 5 - correct answer reference -->
+    <string-array name="q1">
+        <item>What is a thread in android?</item>
+        <item>It is a kind of an intent</item>
+        <item>It is used to pass the data between activities</item>
+        <item>It will fire at a future point of time</item>
+        <item>None of the Above</item>
+        <item>opt4</item>
+    </string-array>
+    <string-array name="q2">
+        <item>With what are activities, services and broadcast receivers activated?</item>
+        <item>Button</item>
+        <item>Activity</item>
+        <item>intent</item>
+        <item>Hander</item>
+        <item>opt3</item>
+    </string-array>
+    <string-array name="q3">
+        <item>Which folder do you copy and paste an image into?</item>
+        <item>Layout</item>
+        <item>Resources</item>
+        <item>Drawable</item>
+        <item>Java</item>
+        <item>opt3</item>
+    </string-array>
+    <string-array name="q4">
+        <item>How many orientations does android support?</item>
+        <item>4</item>
+        <item>10</item>
+        <item>2</item>
+        <item>None of the above</item>
+        <item>opt4</item>
+    </string-array>
+    <string-array name="q5">
+        <item>Which listener is called for the device to register the enter key press?</item>
+        <item>OnKeyListener</item>
+        <item>OnContextClickListener</item>
+        <item>OnHoverListener</item>
+        <item>OnClickListener </item>
+        <item>opt1</item>
+    </string-array>
+    <string-array name="q6">
+        <item>What is ADB in android?</item>
+        <item>Image tool</item>
+        <item>Development tool</item>
+        <item>Android Debug Bridge</item>
+        <item>None of the above</item>
+        <item>opt1</item>
+    </string-array>
+    <string-array name="q7">
+        <item>Which component property should be changed to a name that is specific of the components use?</item>
+        <item>Editable</item>
+        <item>Text</item>
+        <item>Content Description</item>
+        <item>ID</item>
+        <item>opt4</item>
+    </string-array>
+    <string-array name="q8">
+        <item>Persist data can be stored in Android through</item>
+        <item>Shared Preferences</item>
+        <item>Internal/External storage</item>
+        <item>SQlite</item>
+        <item>Network servers</item>
+        <item>opt1</item>
+    </string-array>
+    <string-array name="q9">
+        <item>How many applications are there in a given task in android?</item>
+        <item>Two</item>
+        <item>One</item>
+        <item>Many</item>
+        <item>Zero</item>
+        <item>opt1</item>
+    </string-array>
+    <string-array name="q10">
+        <item>Which is the correct line of code to get the ID of the EditText you intend to use?</item>
+        <item>EditText TextHandler = (EditText)findViewById(nameTextField);</item>
+        <item>EditText TextHandler = findViewById(R.id.nameTextField);</item>
+        <item>EditText TextHandler = (EditText)findViewById(R.id.nameTextField);</item>
+        <item>EditText = (EditText)findViewById(R.id.nameTextField);</item>
+        <item>opt1</item>
+    </string-array>
+    <string-array name="q11">
+        <item>Which component property should be changed to a name that is specific of the components use?</item>
+        <item>Text</item>
+        <item>Content Description</item>
+        <item>Editable</item>
+        <item>ID</item>
+        <item>opt2</item>
+    </string-array>
+    <string-array name="q12">
+        <item>Which Android Studio file is most of the app coding done in?</item>
+        <item>MainActivity.java</item>
+        <item>AndroidManifest.xml</item>
+        <item>Activity_main_xml</item>
+        <item>All of above</item>
+        <item>opt2</item>
+    </string-array>
+    <string-array name="q13">
+        <item>Which is correct for using any image with the name "trainstation"?</item>
+        <item>Android:"@drawable/trainstation"</item>
+        <item>Src=@drawable/trainstation</item>
+        <item>Android:src="trainstation"</item>
+        <item>Android:src="@drawable/trainstation"</item>
+        <item>opt4</item>
+    </string-array>
+    <string-array name="q14">
+        <item>fragment is a part or portion of &#8230;</item>
+        <item>An information</item>
+        <item>time</item>
+        <item>an activity</item>
+        <item>thingy</item>
+        <item>opt3</item>
+    </string-array>
+    <string-array name="q15">
+        <item>How many sizes are supported by Android?</item>
+        <item>Android supported all sizes</item>
+        <item>Android does not support all sizes</item>
+        <item>Android supports small,normal, large and extra-large sizes</item>
+        <item>Size is undefined in android</item>
+        <item>opt1</item>
+    </string-array>
+
+    <!-- Access questions through this array -->
+    <array name="questions">
+        <item>@array/q1</item>
+        <item>@array/q2</item>
+        <item>@array/q3</item>
+        <item>@array/q4</item>
+        <item>@array/q5</item>
+        <item>@array/q6</item>
+        <item>@array/q7</item>
+        <item>@array/q8</item>
+        <item>@array/q9</item>
+        <item>@array/q10</item>
+        <item>@array/q11</item>
+        <item>@array/q12</item>
+        <item>@array/q13</item>
+        <item>@array/q14</item>
+        <item>@array/q15</item>
+    </array>
+</resources>

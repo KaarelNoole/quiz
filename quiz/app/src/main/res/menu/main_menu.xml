@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res > new > android resource directory > menu  -->
+
+    <item
+        android:id="@+id/btnResetScore"
+        android:onClick="onResetScore"
+        android:title="@string/resetScore" />
+    <item
+        android:id="@+id/btnResetAnswers"
+        android:onClick="onResetAnswers"
+        android:title="@string/resetAnswers" />
+</menu>
